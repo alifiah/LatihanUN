@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_soal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.soal">
+
+    <ImageButton
+        android:id="@+id/imageButtonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonA"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/imageButtonA"
+        android:layout_toRightOf="@+id/imageButtonA"
+        android:background="@drawable/B"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButtonC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonB"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/imageButtonB"
+        android:layout_toRightOf="@+id/imageButtonB"
+        android:background="@drawable/C"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButtonD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonC"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/imageButtonC"
+        android:layout_toRightOf="@+id/imageButtonC"
+        android:background="@drawable/D"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButtonA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="55dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/A"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonA"
+        android:layout_alignStart="@+id/imageButtonA"
+        android:layout_below="@+id/imageButtonB"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="18dp"
+        android:text="Selesai" />
+
+    <ImageButton
+        android:id="@+id/imageButtonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButtonC"
+        android:background="@drawable/next"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <ImageButton
+        android:id="@+id/imageButtonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonNext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageButtonB"
+        android:layout_toStartOf="@+id/imageButtonB"
+        android:background="@drawable/back"
+        app:srcCompat="@mipmap/ic_launcher" />
+</RelativeLayout>
