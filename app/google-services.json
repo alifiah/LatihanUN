@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "609424573096",
+    "firebase_url": "https://latihanun.firebaseio.com",
+    "project_id": "latihanun",
+    "storage_bucket": "latihanun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:609424573096:android:4e8496d2e908fffe",
+        "android_client_info": {
+          "package_name": "id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "609424573096-1f56c96jq2cq47596usgjgoi543i154o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun",
+            "certificate_hash": "A4A67B0A73A8F8B760C667625B071423E0246F99"
+          }
+        },
+        {
+          "client_id": "609424573096-s2lb6qi3le4l8ip5fq70ahjcdflpr0s1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuJ91InbRRk7CsXkJ-sBDitYlYCEKEBkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "609424573096-s2lb6qi3le4l8ip5fq70ahjcdflpr0s1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

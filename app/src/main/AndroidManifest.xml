@@ -19,5 +19,5 @@
         <activity android:name=".konfigurasi" />
         <activity android:name=".menu"></activity>
     </application>
-
+<uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
