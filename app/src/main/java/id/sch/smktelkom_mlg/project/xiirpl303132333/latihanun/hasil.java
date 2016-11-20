@@ -1,14 +1,9 @@
 package id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun;
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 
-class MainActivity extends AppCompatActivity
-{
-    @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hasil);
-    }
+/**
+ * Created by Naily Ais Hanani on 20/11/2016.
+ */
+public class hasil extends Activity {
 }
