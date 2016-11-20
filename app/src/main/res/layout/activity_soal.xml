@@ -21,8 +21,8 @@
         android:layout_toEndOf="@+id/imageButtonA"
         android:layout_toRightOf="@+id/imageButtonA"
         android:background="@drawable/b"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:src="@drawable/b" />
+        android:src="@drawable/b"
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <ImageButton
         android:id="@+id/imageButtonC"
@@ -34,8 +34,8 @@
         android:layout_toEndOf="@+id/imageButtonB"
         android:layout_toRightOf="@+id/imageButtonB"
         android:background="@drawable/c"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:src="@drawable/c" />
+        android:src="@drawable/c"
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <ImageButton
         android:id="@+id/imageButtonD"
@@ -47,8 +47,8 @@
         android:layout_toEndOf="@+id/imageButtonC"
         android:layout_toRightOf="@+id/imageButtonC"
         android:background="@drawable/d"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:src="@drawable/d" />
+        android:src="@drawable/d"
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <ImageButton
         android:id="@+id/imageButtonA"
@@ -61,8 +61,8 @@
         android:layout_marginLeft="14dp"
         android:layout_marginStart="0dp"
         android:background="@drawable/a"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:src="@drawable/a" />
+        android:src="@drawable/a"
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <Button
         android:id="@+id/button"
@@ -78,23 +78,22 @@
 
     <ImageButton
         android:id="@+id/imageButtonNext"
-        android:layout_width="150dp"
+        android:layout_width="70dp"
         android:layout_height="150dp"
         android:layout_alignParentTop="true"
         android:background="@drawable/next"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:layout_toRightOf="@+id/imageButtonD" />
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <ImageButton
         android:id="@+id/imageButtonBack"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
         android:layout_alignBottom="@+id/imageButtonNext"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_toStartOf="@+id/imageButtonD"
+        android:layout_toLeftOf="@+id/imageButtonB"
+        android:layout_toStartOf="@+id/imageButtonB"
         android:background="@drawable/back"
-        app:srcCompat="@mipmap/ic_launcher"
-        android:layout_toLeftOf="@+id/imageButtonD" />
+        app:srcCompat="@mipmap/ic_launcher" />
 </RelativeLayout>
