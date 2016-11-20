@@ -15,45 +15,47 @@
 
     <ImageButton
         android:id="@+id/imageButtonSMP"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_alignBottom="@+id/imageButtonSD"
         android:layout_marginLeft="0dp"
         android:layout_marginStart="0dp"
         android:layout_toRightOf="@+id/imageButtonSD"
         android:background="@drawable/smp"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="10dp" />
 
     <ImageButton
         android:id="@+id/imageButtonSMA"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_alignBottom="@+id/imageButtonSMP"
         android:layout_marginLeft="0dp"
         android:layout_marginStart="0dp"
         android:layout_toEndOf="@+id/imageButtonSMP"
         android:layout_toRightOf="@+id/imageButtonSMP"
         android:background="@drawable/sma"
-        app:srcCompat="@mipmap/ic_launcher" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageButtonSD"
-        android:layout_alignStart="@+id/imageButtonSD"
-        android:text="TextView" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="10dp" />
 
     <ImageButton
         android:id="@+id/imageButtonSD"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView6"
         android:layout_marginLeft="0dp"
         android:layout_marginStart="0dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="90dp"
         android:background="@drawable/sd"
         app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Silahkan Konfigurasi Dahulu"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

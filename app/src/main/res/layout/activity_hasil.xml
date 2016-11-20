@@ -8,7 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.hasil">
+    tools:context="id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.hasil"
+    android:background="@drawable/iEzAq.u.cs_24891">
 
     <TextView
         android:id="@+id/textView"
