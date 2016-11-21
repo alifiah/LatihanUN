@@ -11,7 +11,7 @@
     tools:context="id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.menu">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/bindosd13"
         android:layout_width="110dp"
         android:layout_height="60dp"
         android:layout_alignParentLeft="true"
@@ -22,12 +22,12 @@
         android:text="Bahasa Indonesia" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/matsd13"
         android:layout_width="110dp"
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/button2"
+        android:layout_alignTop="@+id/bindosd13"
         android:background="@color/material_deep_teal_500"
         android:text="Matematika" />
 
@@ -35,7 +35,7 @@
         android:id="@+id/button4"
         android:layout_width="110dp"
         android:layout_height="60dp"
-        android:layout_alignBottom="@+id/button2"
+        android:layout_alignBottom="@+id/bindosd13"
         android:layout_centerHorizontal="true"
         android:background="@color/material_deep_teal_500"
         android:text="Bahasa Inggris" />
@@ -53,7 +53,7 @@
         android:id="@+id/button11"
         android:layout_width="110dp"
         android:layout_height="60dp"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/bindosd13"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:background="@color/material_deep_teal_500"
@@ -93,8 +93,8 @@
         android:layout_width="110dp"
         android:layout_height="60dp"
         android:layout_alignBottom="@+id/button13"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
+        android:layout_alignLeft="@+id/matsd13"
+        android:layout_alignStart="@+id/matsd13"
         android:background="@color/abc_search_url_text_normal"
         android:text="Bahasa Inggris" />
 
