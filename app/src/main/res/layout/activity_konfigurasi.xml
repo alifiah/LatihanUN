@@ -53,7 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:fontFamily="casual"
+        android:fontFamily="serif"
+        android:gravity="center"
         android:text="Silahkan Konfigurasi Dahulu"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textSize="24sp" />
 </RelativeLayout>
