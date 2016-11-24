@@ -18,48 +18,158 @@ public class Database extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql = "CREATE TABLE IF NOT EXISTS tbl_soal(id INTEGER PRIMARY KEY AUTOINCREMENT, soal TEXT, pil_a TEXT, pil_b TEXT, pil_c TEXT, jwban INTEGER, img BLOB)";
+        String sql = "CREATE TABLE IF NOT EXISTS tbl_soal(id INTEGER PRIMARY KEY AUTOINCREMENT,  img BLOB)";
         db.execSQL(sql);
 
         ContentValues values = new ContentValues();
-        values.put("soal", "Apa nama latin dari gambar di samping?");
-        values.put("pil_a", "Punica granatum L.");
-        values.put("pil_b","Durio zibethinus L.");
-        values.put("pil_c", "Lansium domesticum Correa.");
-        values.put("jwban","1");
-        values.put("img", R.drawable.durian);
+        values.put("img", R.drawable.bi_sd_2013_1);
         db.insert("tbl_soal", "soal", values);
 
-        values.put("soal", "Apa nama latin dari gambar di samping?");
-        values.put("pil_a", "Punica granatum L.");
-        values.put("pil_b","Durio zibethinus L.");
-        values.put("pil_c", "Lansium domesticum Correa.");
-        values.put("jwban","2");
-        values.put("img", R.drawable.langsat);
+        values.put("img", R.drawable.bi_sd_2013_2);
         db.insert("tbl_soal", "soal", values);
 
-        values.put("soal", "Apa nama latin dari gambar di samping?");
-        values.put("pil_a", "Artocarpus heterophillya atau Artocarpus integra");
-        values.put("pil_b","Ananas comosus Merr.");
-        values.put("pil_c", "Morinda citrifolia L.");
-        values.put("jwban","1");
-        values.put("img", R.drawable.nanas);
+        values.put("img", R.drawable.bi_sd_2013_3);
         db.insert("tbl_soal", "soal", values);
 
-        values.put("soal", "Apa nama latin dari gambar di samping?");
-        values.put("pil_a", "Artocarpus heterophillya atau Artocarpus integra");
-        values.put("pil_b","Ananas comosus Merr.");
-        values.put("pil_c", "Morinda citrifolia L.");
-        values.put("jwban","0");
-        values.put("img", R.drawable.nangka);
+        values.put("img", R.drawable.bi_sd_2013_4);
         db.insert("tbl_soal", "soal", values);
 
-        values.put("soal", "Apa nama latin dari gambar di samping?");
-        values.put("pil_a", "Pyrus communis ");
-        values.put("pil_b","Musa sp.");
-        values.put("pil_c", "Niphelium lappaceum L.");
-        values.put("jwban","1");
-        values.put("img", R.drawable.pisang);
+        values.put("img", R.drawable.bi_sd_2013_5);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_6);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_7);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_8);
+        db.insert("tbl_soal", "soal", values);
+
+	values.put("img", R.drawable.bi_sd_2013_9);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_10);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_11);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_12);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_13);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_14);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_15);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_16);
+        db.insert("tbl_soal", "soal", values);
+
+	values.put("img", R.drawable.bi_sd_2013_17);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_18);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_19);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_20);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_21);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_22);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_23);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_24);
+        db.insert("tbl_soal", "soal", values);
+
+	values.put("img", R.drawable.bi_sd_2013_25);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_26);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_27);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_28);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_29);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_30);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_31);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_32);
+        db.insert("tbl_soal", "soal", values);
+
+	values.put("img", R.drawable.bi_sd_2013_33);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_34);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_35);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_36);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_37);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_38);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_39);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_40);
+        db.insert("tbl_soal", "soal", values);
+
+	values.put("img", R.drawable.bi_sd_2013_41);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_42);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_43);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_44);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_45);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_46);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_47);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_48);
+        db.insert("tbl_soal", "soal", values);
+
+	values.put("img", R.drawable.bi_sd_2013_49);
+        db.insert("tbl_soal", "soal", values);
+
+        values.put("img", R.drawable.bi_sd_2013_50);
         db.insert("tbl_soal", "soal", values);
 
     }
@@ -74,12 +184,7 @@ public class Database extends SQLiteOpenHelper {
         if(cursor.moveToFirst()){
             do{
                 Soal s = new Soal();
-                s.setSoal(cursor.getString(1));
-                s.setPil_a(cursor.getString(2));
-                s.setPil_b(cursor.getString(3));
-                s.setPil_c(cursor.getString(4));
-                s.setJwban(cursor.getInt(5));
-                s.setGambar(cursor.getInt(6));
+                s.setGambar(cursor.getInt(1));
                 listSoal.add(s);
             }while(cursor.moveToNext());
         }
