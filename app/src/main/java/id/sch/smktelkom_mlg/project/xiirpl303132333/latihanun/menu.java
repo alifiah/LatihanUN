@@ -6,15 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.bindo13;
 import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.bindo_sd_15;
-import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.bindosd14;
+import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.bindosmp13;
+import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.bindosmp14;
 import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.bing_sd_13;
 import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.bing_sd_15;
-import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.bingsd14;
+import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.bingsmp14;
 import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.mat_sd_15;
-import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.matsd13;
-import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.matsd14;
+import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.matsmp13;
+import static id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.R.id.matsmp14;
 
 public class menu extends AppCompatActivity {
 
@@ -24,7 +24,7 @@ public class menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
 
-        Button ssd = (Button) findViewById(bindo13);
+        Button ssd = (Button) findViewById(bindosmp13);
         ssd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +42,7 @@ public class menu extends AppCompatActivity {
             }
         });
 
-        Button sssd1 = (Button) findViewById(matsd13);
+        Button sssd1 = (Button) findViewById(matsmp13);
         sssd1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +51,7 @@ public class menu extends AppCompatActivity {
             }
         });
 
-        Button ssd2 = (Button) findViewById(bindosd14);
+        Button ssd2 = (Button) findViewById(bindosmp14);
         ssd2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,7 +60,7 @@ public class menu extends AppCompatActivity {
             }
         });
 
-        Button sssd2 = (Button) findViewById(bingsd14);
+        Button sssd2 = (Button) findViewById(bingsmp14);
         sssd2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,7 +68,7 @@ public class menu extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        Button sssd3 = (Button) findViewById(matsd14);
+        Button sssd3 = (Button) findViewById(matsmp14);
         sssd3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
