@@ -21,7 +21,17 @@
         <activity android:name=".hasil" />
         <activity android:name=".menu" />
         <activity android:name=".Menu2Activity" />
-        <activity android:name=".Menu3Activity"></activity>
+        <activity android:name=".Menu3Activity" />
+        <activity android:name=".soal_sd_bindo" />
+        <activity android:name=".soal_sd_matematika" />
+        <activity android:name=".soal_sd_ipa" />
+        <activity android:name=".soal_smp_bindo" />
+        <activity android:name=".soal_smp_bing" />
+        <activity android:name=".soal_smp_matematika" />
+        <activity android:name=".soal_smp_ipa" />
+        <activity android:name=".soal_sma_bindo" />
+        <activity android:name=".soal_sma_bing" />
+        <activity android:name=".soal_sma_matematika"></activity>
     </application>
 
 </manifest>
