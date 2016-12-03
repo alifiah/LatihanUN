@@ -85,6 +85,7 @@ public class Menu3Activity extends AppCompatActivity {
             }
         });
 
+
         Button sma8 = (Button) findViewById(bingsma15);
         sma8.setOnClickListener(new View.OnClickListener() {
             @Override
