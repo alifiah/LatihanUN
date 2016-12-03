@@ -17,7 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".soal" />
+        <activity android:name=".Soal" />
         <activity android:name=".hasil" />
         <activity android:name=".menu" />
         <activity android:name=".Menu2Activity" />
