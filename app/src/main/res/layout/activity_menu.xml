@@ -12,7 +12,7 @@
     tools:context="id.sch.smktelkom_mlg.project.xiirpl303132333.latihanun.menu">
 
     <Button
-        android:id="@+id/bindosmp13"
+        android:id="@+id/bindosma13"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_alignParentLeft="true"
@@ -23,12 +23,12 @@
         android:text="Bahasa Indonesia" />
 
     <Button
-        android:id="@+id/matsmp13"
+        android:id="@+id/matsma13"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/bindosmp13"
+        android:layout_alignTop="@+id/bindosma13"
         android:background="?attr/colorButtonNormal"
         android:text="Matematika" />
 
@@ -36,37 +36,37 @@
         android:id="@+id/bing_sd_13"
         android:layout_width="110dp"
         android:layout_height="70dp"
-        android:layout_alignBottom="@+id/bindosmp13"
+        android:layout_alignBottom="@+id/bindosma13"
         android:layout_centerHorizontal="true"
         android:background="?attr/colorButtonNormal"
         android:text="Bahasa Inggris" />
 
     <Button
-        android:id="@+id/bindosmp14"
+        android:id="@+id/bindosma14"
         android:layout_width="110dp"
         android:layout_height="70dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/bindosmp13"
+        android:layout_below="@+id/bindosma13"
         android:layout_marginTop="60dp"
         android:background="?attr/colorButtonNormal"
         android:text="Bahasa Indonesia" />
 
     <Button
-        android:id="@+id/matsmp14"
+        android:id="@+id/matsma14"
         android:layout_width="110dp"
         android:layout_height="70dp"
-        android:layout_alignLeft="@+id/matsmp13"
-        android:layout_alignStart="@+id/matsmp13"
-        android:layout_alignTop="@+id/bindosmp14"
+        android:layout_alignLeft="@+id/matsma13"
+        android:layout_alignStart="@+id/matsma13"
+        android:layout_alignTop="@+id/bindosma14"
         android:background="?attr/colorButtonNormal"
         android:text="Matematika" />
 
     <Button
-        android:id="@+id/bingsmp14"
+        android:id="@+id/bingsma14"
         android:layout_width="110dp"
         android:layout_height="70dp"
-        android:layout_alignTop="@+id/matsmp14"
+        android:layout_alignTop="@+id/matsma14"
         android:layout_centerHorizontal="true"
         android:background="?attr/colorButtonNormal"
         android:text="Bahasa Inggris" />
@@ -77,7 +77,7 @@
         android:layout_height="70dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/bindosmp14"
+        android:layout_below="@+id/bindosma14"
         android:layout_marginTop="60dp"
         android:background="?attr/colorButtonNormal"
         android:text="Bahasa Indonesia" />
@@ -86,9 +86,9 @@
         android:id="@+id/bing_sd_15"
         android:layout_width="110dp"
         android:layout_height="70dp"
-        android:layout_alignLeft="@+id/bingsmp14"
-        android:layout_alignStart="@+id/bingsmp14"
-        android:layout_below="@+id/bingsmp14"
+        android:layout_alignLeft="@+id/bingsma14"
+        android:layout_alignStart="@+id/bingsma14"
+        android:layout_below="@+id/bingsma14"
         android:layout_marginTop="60dp"
         android:background="?attr/colorButtonNormal"
         android:text="Bahasa Inggris" />
@@ -97,7 +97,7 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bindosmp13"
+        android:layout_below="@+id/bindosma13"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="2014"
@@ -107,7 +107,7 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bindosmp14"
+        android:layout_below="@+id/bindosma14"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="2015"
