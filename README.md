@@ -2,18 +2,16 @@
 
 Aplikasi ini digunakan untuk memberi persiapan lebih para siswa SD, SMP, SMA dalam menghadapi UJIAN NASIONAL.
 
-![whatsapp image 2016-11-20 at 11 00 44 pm](https://cloud.githubusercontent.com/assets/22756639/20464172/7219bf98-af75-11e6-958b-5a2bf9527bf3.jpeg)
-![whatsapp image 2016-11-20 at 11 00 44 pm 1](https://cloud.githubusercontent.com/assets/22756639/20464174/746d84d2-af75-11e6-81ea-a3dac4f2a9e3.jpeg)
-![whatsapp image 2016-11-20 at 11 00 44 pm 2](https://cloud.githubusercontent.com/assets/22756639/20464175/75e780d8-af75-11e6-8ca0-9b537b37934c.jpeg)
-![whatsapp image 2016-11-20 at 11 00 44 pm 3](https://cloud.githubusercontent.com/assets/22756639/20464176/783d37b0-af75-11e6-9107-a6141b684a08.jpeg)
+![screenshot_2016-12-07-21-22-01](https://cloud.githubusercontent.com/assets/16624624/20971334/ae5dd1b4-bcc3-11e6-97a6-2f0440ee4b18.png)
+![screenshot_2016-12-07-21-22-06](https://cloud.githubusercontent.com/assets/16624624/20971338/b3eb54bc-bcc3-11e6-9121-0e863e38ce6a.png)
+![screenshot_2016-12-07-21-22-11](https://cloud.githubusercontent.com/assets/16624624/20971343/b8862f7e-bcc3-11e6-876d-41a3526c03bc.png)
 
 video
 
 link
 
-* Alifiah Izzi Imani / 03 NIS = 4283/1181-070
-* Erlina Novita Putri / 13 NIS =
-* Naily Ais Hanani / 23 NIS =
-* Satrio Bagus / 33 NIS =
+* Alifiah Izzi Imani /XII RPL 4/ 03 / 4283/1181-070 / alifiah / SMK TELKOM MALANG
+* Erlina Novita Putri /XII RPL 4/ 13 / 4339/1237.063⁠⁠⁠⁠ / ErlinaNovita / SMK TELKOM MALANG
+* Naily Ais Hanani /XII RPL 4/ 23 / 4397/1295.063⁠⁠⁠⁠ / nailyais / SMK TELKOM MALANG
+* Satrio Bagus /XII RPL 4/ 33 / 4437/1335/070 / masnyanasya / SMK TELKOM MALANG
 
-Kelas = XII RPL 4 | Nama Sekolah = SMK TELKOM MALANG
